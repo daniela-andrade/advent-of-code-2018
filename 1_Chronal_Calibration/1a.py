@@ -2,7 +2,7 @@ freq = 0
 lines = []
 
 with open('1_input.txt','r') as f:
-  lines = f.readlines()
+	lines = f.readlines()
 
 for line in lines:
 	try:
