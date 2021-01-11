@@ -1,4 +1,4 @@
-with open('2_input.txt','r') as f:
+with open('input.txt','r') as f:
 	lines = f.readlines()
 	two = 0
 	three = 0

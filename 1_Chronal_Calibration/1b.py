@@ -15,7 +15,7 @@ def findFirstRepeatedFreq(freqs):
 				print('Invalid input  %s' % line)
 
 lines = []
-with open('1_input.txt','r') as f:
+with open('input.txt','r') as f:
 	lines = f.readlines()
 
 findFirstRepeatedFreq(lines)

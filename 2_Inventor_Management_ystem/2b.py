@@ -32,7 +32,7 @@ def LevenshteinDifference(s1,s2):
 	return getLevenshteinDifference(len(s1),len(s2))
 
 
-with open('2_input.txt', 'r') as f:
+with open('input.txt', 'r') as f:
 	lines = f.readlines()
 	word1 = ''
 	word2 = ''

@@ -59,7 +59,7 @@ def getMaxRecord_strategyTwo():
 			guardId = record
 	return guardId * records[guardId].index(globalMax)
 
-with open('4_input.txt', 'r') as file:
+with open('input.txt', 'r') as file:
 	lines = sorted(file.readlines())
 
 pattern = re.compile(r".*:(\d*).*(#\d*|falls|wakes)")
